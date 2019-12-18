@@ -1,0 +1,21 @@
+{
+  "global": {
+    "COLORS": {
+      "main": "<%= MAINCOLOR %>",
+      "main2": "<%= MAINCOLOR2 %>"
+    }
+  },
+  "env:development": {
+    "baseurl": "<%= BASEURL %>"
+  },
+  "env:test": {
+    "baseurl": "<%= BASEURL %>"
+  },
+  "env:production": {
+    "baseurl": "<%= BASEURL %>"
+  },
+  "os:android": {},
+  "os:ios": {},
+  "os:windows": {},
+  "dependencies": {}
+}
